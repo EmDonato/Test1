@@ -3,9 +3,9 @@ jdk:
 - openjdk8
 addons:
   sonarcloud:
-  organization: EmDonato
+  organization: emdonato
   token:
-    secure: 6VKWje5u9lw0Tokp4y2c2g
+    secure: 663ddbb7284b9b8648665e3b7cdfc24077aeb63b
 script: 
 - ant build 
 - sonar-scanner
